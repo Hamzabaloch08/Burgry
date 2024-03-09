@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+nav>h1:first-child {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+nav>h1>span {
+    color: #ffba00;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 0px 45px;
+    width: 55%;
+}
+
+.nav-content>a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    font-weight: 500;
+}
+
+.nav-content>a:hover {
+    color: #ffba00;
+}
+
+.nav-content>button:last-child {
+    background-color: #ffc62a;
+    border: none;
+    width: 18%;
+    height: 2.7rem;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-content>button:active {
+    background-color: #ffbb01;
+    transform: scale(0.98);
+}
+
+/* end of navbar */
+/* main section */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 0px 50px;
+}
+
+.img-container {
+    width: 30%;
+}
+
+.img-container>img {
+    width: 100%;
+}
+
+.child-container {
+    margin-top: 55px;
+    color: #fff;
+    width: 45%;
+}
+
+.child-container>h1 {
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.child-container>h1>span {
+    border-bottom: 2px #ffbb00 solid;
+}
+
+.child-container>p {
+    font-size: 1.3rem;
+}
+
+.images {
+    display: flex;
+    gap: 0px 80px;
+    margin-top: 30px;
+}
+
+.images>img {
+    width: 50px;
+}
+
+.info {
+    display: flex;
+    gap: 0px 40px;
+    margin-top: 10px;
+}
+
+.info>h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.info>h2:nth-child(2) {
+    margin-left: 10px;
+}
+
+.info>h2:nth-child(3) {
+    margin-left: 25px;
+}
+
+.child-container>button:last-child {
+    background-color: #ffc21c;
+    border: none;
+    width: 26%;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.child-container>button:active{
+    background-color: #ffbb01;
+    transform: scale(0.98);
+}

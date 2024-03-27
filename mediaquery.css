@@ -1,0 +1,25 @@
+@media screen and (min-width: 1024px) {
+    nav{
+        padding:  20px 50px;
+    }
+
+    nav>h1:first-child{
+        font-size: 2.3rem;
+    }
+
+    .nav-content{
+        margin-right: -80px;
+        gap: 0px 30px;
+    }
+
+    .nav-content>a{
+        font-size: 0.79rem;
+    }
+
+    .nav-content>button:last-child {
+      width: 17%;
+      height: 2.6rem;
+      font-size: 0.9rem;
+  }
+    
+  }

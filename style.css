@@ -15,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    padding: 20px 0px;
+    padding: 20px 80px;
 }
 
 nav>h1:first-child {
@@ -24,25 +24,26 @@ nav>h1:first-child {
     font-weight: 700;
     font-family: 'Segoe UI';
     cursor: pointer;
-    margin-left: 80px;
 }
 
-nav>h1>span {
+nav>h1>span {   
     color: #ffba00;
 }
 
 .nav-content {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 0px 45px;
-    width: 55%;
+    gap: 0px 40px;
+    width: 75%;
+    margin-right: -80px;
 }
 
 .nav-content>a {
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s linear;
     font-weight: 500;
@@ -76,6 +77,7 @@ nav>h1>span {
     display: flex;
     justify-content: center;
     gap: 0px 50px;
+    padding: 70px 0px;
 }
 
 .img-container {
